@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.one{
+  height: 300px;
+  width:100%;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.one_child{
+  height: 200px;
+  width:15%;
+  background-color: red;
+}
+.two{
+  height: 300px;
+  width:100%;
+  background-color: black;
+  margin-top: 50px;
+}
+.two_child{
+  height:200px;
+  width: 20%;
+  background-color: gray;
+  display:inline-block;
+  margin-left: 4%;
+  margin-top: 50px;
+}
